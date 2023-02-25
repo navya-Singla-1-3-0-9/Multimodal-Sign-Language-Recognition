@@ -13,7 +13,7 @@ import cv2
 from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
-from model import model
+import model
 import load_data
 from google.colab import drive
 drive.mount('/content/drive')
